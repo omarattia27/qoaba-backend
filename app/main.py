@@ -4,7 +4,7 @@ from app.routes.questions_route import question_api_router
 from app.routes.auth_route import auth_api_router
 
 app = FastAPI()
-
+console.log("successfully connected!/n")
 # Configure CORS to allow requests from your frontend
 app.add_middleware(
     CORSMiddleware,
