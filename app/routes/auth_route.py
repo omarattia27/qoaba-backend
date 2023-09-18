@@ -10,7 +10,7 @@ from bson import ObjectId
 auth_api_router = APIRouter(
     prefix="/api/users",
     tags=["users"],
-    responses={404: {"description": "Not found"}},
+    responses={404: {"description": "Not found DEMO for deployment"}},
 )
 
 
